@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FDCFE62ACD92E9004633BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDCFE52ACD92E9004633BE /* AppDelegate.m */; };
+		09FDCFE92ACD92E9004633BE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDCFE82ACD92E9004633BE /* SceneDelegate.m */; };
+		09FDCFEC2ACD92E9004633BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDCFEB2ACD92E9004633BE /* ViewController.m */; };
+		09FDCFEF2ACD92E9004633BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDCFED2ACD92E9004633BE /* Main.storyboard */; };
+		09FDCFF12ACD92EA004633BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FDCFF02ACD92EA004633BE /* Assets.xcassets */; };
+		09FDCFF42ACD92EA004633BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDCFF22ACD92EA004633BE /* LaunchScreen.storyboard */; };
+		09FDCFF72ACD92EA004633BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FDCFF62ACD92EA004633BE /* main.m */; };
+		09FDCFFF2ACD9312004633BE /* TestQoreIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FDCFFE2ACD9312004633BE /* TestQoreIDViewController.swift */; };
+		ADAD9027B45BA345AD18D57F /* Pods_QoreIDObjectiveCTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D91CDFFC87CC756A6EE8204 /* Pods_QoreIDObjectiveCTestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09FDCFE12ACD92E9004633BE /* QoreIDObjectiveCTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QoreIDObjectiveCTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FDCFE42ACD92E9004633BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09FDCFE52ACD92E9004633BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09FDCFE72ACD92E9004633BE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		09FDCFE82ACD92E9004633BE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		09FDCFEA2ACD92E9004633BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09FDCFEB2ACD92E9004633BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09FDCFEE2ACD92E9004633BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09FDCFF02ACD92EA004633BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09FDCFF32ACD92EA004633BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09FDCFF52ACD92EA004633BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FDCFF62ACD92EA004633BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09FDCFFD2ACD9311004633BE /* QoreIDObjectiveCTestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QoreIDObjectiveCTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		09FDCFFE2ACD9312004633BE /* TestQoreIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestQoreIDViewController.swift; sourceTree = "<group>"; };
+		2D91CDFFC87CC756A6EE8204 /* Pods_QoreIDObjectiveCTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QoreIDObjectiveCTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA4075C48EC549422320B54 /* Pods-QoreIDObjectiveCTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QoreIDObjectiveCTestApp.debug.xcconfig"; path = "Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		72C7AA7F0505091DD2335D7F /* Pods-QoreIDObjectiveCTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QoreIDObjectiveCTestApp.release.xcconfig"; path = "Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FDCFDE2ACD92E9004633BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD9027B45BA345AD18D57F /* Pods_QoreIDObjectiveCTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FDCFD82ACD92E9004633BE = {
+			isa = PBXGroup;
+			children = (
+				09FDCFE32ACD92E9004633BE /* QoreIDObjectiveCTestApp */,
+				09FDCFE22ACD92E9004633BE /* Products */,
+				253D58E94C75A979BE067178 /* Pods */,
+				D160A13956C7AFB9928EEAC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09FDCFE22ACD92E9004633BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FDCFE12ACD92E9004633BE /* QoreIDObjectiveCTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FDCFE32ACD92E9004633BE /* QoreIDObjectiveCTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				09FDCFE42ACD92E9004633BE /* AppDelegate.h */,
+				09FDCFE52ACD92E9004633BE /* AppDelegate.m */,
+				09FDCFE72ACD92E9004633BE /* SceneDelegate.h */,
+				09FDCFE82ACD92E9004633BE /* SceneDelegate.m */,
+				09FDCFEA2ACD92E9004633BE /* ViewController.h */,
+				09FDCFEB2ACD92E9004633BE /* ViewController.m */,
+				09FDCFED2ACD92E9004633BE /* Main.storyboard */,
+				09FDCFF02ACD92EA004633BE /* Assets.xcassets */,
+				09FDCFF22ACD92EA004633BE /* LaunchScreen.storyboard */,
+				09FDCFF52ACD92EA004633BE /* Info.plist */,
+				09FDCFF62ACD92EA004633BE /* main.m */,
+				09FDCFFE2ACD9312004633BE /* TestQoreIDViewController.swift */,
+				09FDCFFD2ACD9311004633BE /* QoreIDObjectiveCTestApp-Bridging-Header.h */,
+			);
+			path = QoreIDObjectiveCTestApp;
+			sourceTree = "<group>";
+		};
+		253D58E94C75A979BE067178 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FA4075C48EC549422320B54 /* Pods-QoreIDObjectiveCTestApp.debug.xcconfig */,
+				72C7AA7F0505091DD2335D7F /* Pods-QoreIDObjectiveCTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D160A13956C7AFB9928EEAC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D91CDFFC87CC756A6EE8204 /* Pods_QoreIDObjectiveCTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FDCFE02ACD92E9004633BE /* QoreIDObjectiveCTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FDCFFA2ACD92EA004633BE /* Build configuration list for PBXNativeTarget "QoreIDObjectiveCTestApp" */;
+			buildPhases = (
+				05CC3A87F848A1712ED735FA /* [CP] Check Pods Manifest.lock */,
+				09FDCFDD2ACD92E9004633BE /* Sources */,
+				09FDCFDE2ACD92E9004633BE /* Frameworks */,
+				09FDCFDF2ACD92E9004633BE /* Resources */,
+				654EA6DDF4D78B617069EF7C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QoreIDObjectiveCTestApp;
+			productName = QoreIDObjectiveCTestApp;
+			productReference = 09FDCFE12ACD92E9004633BE /* QoreIDObjectiveCTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FDCFD92ACD92E9004633BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					09FDCFE02ACD92E9004633BE = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 09FDCFDC2ACD92E9004633BE /* Build configuration list for PBXProject "QoreIDObjectiveCTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09FDCFD82ACD92E9004633BE;
+			productRefGroup = 09FDCFE22ACD92E9004633BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FDCFE02ACD92E9004633BE /* QoreIDObjectiveCTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FDCFDF2ACD92E9004633BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FDCFF42ACD92EA004633BE /* LaunchScreen.storyboard in Resources */,
+				09FDCFF12ACD92EA004633BE /* Assets.xcassets in Resources */,
+				09FDCFEF2ACD92E9004633BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05CC3A87F848A1712ED735FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QoreIDObjectiveCTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654EA6DDF4D78B617069EF7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FDCFDD2ACD92E9004633BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FDCFEC2ACD92E9004633BE /* ViewController.m in Sources */,
+				09FDCFE62ACD92E9004633BE /* AppDelegate.m in Sources */,
+				09FDCFF72ACD92EA004633BE /* main.m in Sources */,
+				09FDCFFF2ACD9312004633BE /* TestQoreIDViewController.swift in Sources */,
+				09FDCFE92ACD92E9004633BE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09FDCFED2ACD92E9004633BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FDCFEE2ACD92E9004633BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09FDCFF22ACD92EA004633BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FDCFF32ACD92EA004633BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FDCFF82ACD92EA004633BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09FDCFF92ACD92EA004633BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FDCFFB2ACD92EA004633BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA4075C48EC549422320B54 /* Pods-QoreIDObjectiveCTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5QWS6B7WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QoreIDObjectiveCTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verifyme.QoreIDObjectiveCTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QoreIDObjectiveCTestApp/QoreIDObjectiveCTestApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09FDCFFC2ACD92EA004633BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C7AA7F0505091DD2335D7F /* Pods-QoreIDObjectiveCTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5QWS6B7WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QoreIDObjectiveCTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verifyme.QoreIDObjectiveCTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QoreIDObjectiveCTestApp/QoreIDObjectiveCTestApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FDCFDC2ACD92E9004633BE /* Build configuration list for PBXProject "QoreIDObjectiveCTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FDCFF82ACD92EA004633BE /* Debug */,
+				09FDCFF92ACD92EA004633BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FDCFFA2ACD92EA004633BE /* Build configuration list for PBXNativeTarget "QoreIDObjectiveCTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FDCFFB2ACD92EA004633BE /* Debug */,
+				09FDCFFC2ACD92EA004633BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FDCFD92ACD92E9004633BE /* Project object */;
+}

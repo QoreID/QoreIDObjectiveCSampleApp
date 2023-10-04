@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		20C14DB1A15A0DA501D447341B72875E /* QoreIDSDKDev */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F6FF253BC7396FCB30CF2E28E951309A /* Build configuration list for PBXAggregateTarget "QoreIDSDKDev" */;
+			buildPhases = (
+				3AB45FD9E5C6E91A462421E619DE8A56 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				5FCFE2DDA84886C614AA20CE5355CF64 /* PBXTargetDependency */,
+			);
+			name = QoreIDSDKDev;
+		};
+		6E99BC01CDF272A219D30E8011560F75 /* QoreIDSDKDependencies */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4360A68E5D496FDABD983E63E0B1B099 /* Build configuration list for PBXAggregateTarget "QoreIDSDKDependencies" */;
+			buildPhases = (
+				2AE0E87CC38C8920CE6A9EE89F12F6D6 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = QoreIDSDKDependencies;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0454859B9852126D1AEC1936DC686FFB /* Pods-QoreIDObjectiveCTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD44E327A4409BCC080B6D4CE764C7E /* Pods-QoreIDObjectiveCTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D58F2DCE8BD46F9B6071C51980818E2 /* Pods-QoreIDObjectiveCTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A43A3D31599BB5CE03CA4B1A120F6AC /* Pods-QoreIDObjectiveCTestApp-dummy.m */; };
+		C49E50651366DAC27C8CFDE208952E60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C14FA995FF898B5528CF2BA0B17E376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C14DB1A15A0DA501D447341B72875E;
+			remoteInfo = QoreIDSDKDev;
+		};
+		E0D6DA153A6F9713FDC7A49DFC646087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E99BC01CDF272A219D30E8011560F75;
+			remoteInfo = QoreIDSDKDependencies;
+		};
+		F990981AD1CCB7642CB485493DCB829D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E99BC01CDF272A219D30E8011560F75;
+			remoteInfo = QoreIDSDKDependencies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A375779887C2E0F367A24DF1361353 /* Pods-QoreIDObjectiveCTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QoreIDObjectiveCTestApp.modulemap"; sourceTree = "<group>"; };
+		0786BF3F332ACCD9566DD1B1F4A8A1AA /* QoreIDSDKDev-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "QoreIDSDKDev-xcframeworks.sh"; sourceTree = "<group>"; };
+		267D3E87D0F1F7F4D6027396BB95AE26 /* Pods-QoreIDObjectiveCTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QoreIDObjectiveCTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A43A3D31599BB5CE03CA4B1A120F6AC /* Pods-QoreIDObjectiveCTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QoreIDObjectiveCTestApp-dummy.m"; sourceTree = "<group>"; };
+		3462323B5E3173B0500A4AD6D330382F /* Pods-QoreIDObjectiveCTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QoreIDObjectiveCTestApp-frameworks.sh"; sourceTree = "<group>"; };
+		3AE3EFF4FCC436C3BFB2538FBC089530 /* QoreIDSDKDependencies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QoreIDSDKDependencies.release.xcconfig; sourceTree = "<group>"; };
+		54C9989C5FF666416C78DB4F0383A0F5 /* QoreIDSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = QoreIDSDK.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		804B3E454E03C93D6C11C352A49ACAD8 /* Pods-QoreIDObjectiveCTestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QoreIDObjectiveCTestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		845740048473FC7E5EBF82710F2D0C62 /* QoreIDSDKDependencies-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "QoreIDSDKDependencies-xcframeworks.sh"; sourceTree = "<group>"; };
+		9276F1F4A57DDFCFB5DDF87D571471C8 /* QoreIDSDKDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QoreIDSDKDev.release.xcconfig; sourceTree = "<group>"; };
+		949FB46A99160ACDEE8245880EB26F14 /* Pods-QoreIDObjectiveCTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QoreIDObjectiveCTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6A984B3A840E960EC24B8A84D6E9CDB /* Pods-QoreIDObjectiveCTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QoreIDObjectiveCTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		C66A502DDDBEB378C6449E024E080BFF /* Pods-QoreIDObjectiveCTestApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QoreIDObjectiveCTestApp"; path = Pods_QoreIDObjectiveCTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D9E959611E2A7D63983F80994A2B5A /* FaceTecSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FaceTecSDK.xcframework; sourceTree = "<group>"; };
+		CBD44E327A4409BCC080B6D4CE764C7E /* Pods-QoreIDObjectiveCTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QoreIDObjectiveCTestApp-umbrella.h"; sourceTree = "<group>"; };
+		E555E268B1A5287C93B51CB971244B82 /* Pods-QoreIDObjectiveCTestApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QoreIDObjectiveCTestApp-Info.plist"; sourceTree = "<group>"; };
+		EAA922E5FA41759A5FE354C4D726CD8B /* QoreIDSDKDependencies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QoreIDSDKDependencies.debug.xcconfig; sourceTree = "<group>"; };
+		F3C81B316E1A9296C8C5B15663D03379 /* QoreIDSDKDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QoreIDSDKDev.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D351ED257FF90D246F7315B2196B701B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49E50651366DAC27C8CFDE208952E60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002E25E9FAF07302241447088CA966C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				845740048473FC7E5EBF82710F2D0C62 /* QoreIDSDKDependencies-xcframeworks.sh */,
+				EAA922E5FA41759A5FE354C4D726CD8B /* QoreIDSDKDependencies.debug.xcconfig */,
+				3AE3EFF4FCC436C3BFB2538FBC089530 /* QoreIDSDKDependencies.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QoreIDSDKDependencies";
+			sourceTree = "<group>";
+		};
+		0719077C54AEE00F2442DBC2FDFB82DA /* QoreIDSDKDependencies */ = {
+			isa = PBXGroup;
+			children = (
+				9BDD198B10F84579B06CA7194549985E /* Frameworks */,
+				002E25E9FAF07302241447088CA966C1 /* Support Files */,
+			);
+			name = QoreIDSDKDependencies;
+			path = QoreIDSDKDependencies;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D6F3A0880C364AB07A9C0CB856E315B /* Pods-QoreIDObjectiveCTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				00A375779887C2E0F367A24DF1361353 /* Pods-QoreIDObjectiveCTestApp.modulemap */,
+				804B3E454E03C93D6C11C352A49ACAD8 /* Pods-QoreIDObjectiveCTestApp-acknowledgements.markdown */,
+				267D3E87D0F1F7F4D6027396BB95AE26 /* Pods-QoreIDObjectiveCTestApp-acknowledgements.plist */,
+				2A43A3D31599BB5CE03CA4B1A120F6AC /* Pods-QoreIDObjectiveCTestApp-dummy.m */,
+				3462323B5E3173B0500A4AD6D330382F /* Pods-QoreIDObjectiveCTestApp-frameworks.sh */,
+				E555E268B1A5287C93B51CB971244B82 /* Pods-QoreIDObjectiveCTestApp-Info.plist */,
+				CBD44E327A4409BCC080B6D4CE764C7E /* Pods-QoreIDObjectiveCTestApp-umbrella.h */,
+				949FB46A99160ACDEE8245880EB26F14 /* Pods-QoreIDObjectiveCTestApp.debug.xcconfig */,
+				B6A984B3A840E960EC24B8A84D6E9CDB /* Pods-QoreIDObjectiveCTestApp.release.xcconfig */,
+			);
+			name = "Pods-QoreIDObjectiveCTestApp";
+			path = "Target Support Files/Pods-QoreIDObjectiveCTestApp";
+			sourceTree = "<group>";
+		};
+		8893F13D947D9C8A94A7DB6BB59EC89E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0719077C54AEE00F2442DBC2FDFB82DA /* QoreIDSDKDependencies */,
+				F9FB8865F765D25E91B4683F6E1C5E01 /* QoreIDSDKDev */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99DF5FA8ADB409D2B7FF1DA6279E0935 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D6F3A0880C364AB07A9C0CB856E315B /* Pods-QoreIDObjectiveCTestApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9BDD198B10F84579B06CA7194549985E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9D9E959611E2A7D63983F80994A2B5A /* FaceTecSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB3A8E8DDA9DF7F4D1F14473CF38562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C9989C5FF666416C78DB4F0383A0F5 /* QoreIDSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8893F13D947D9C8A94A7DB6BB59EC89E /* Pods */,
+				DCD714114B85EBD9EB92D833D853D231 /* Products */,
+				99DF5FA8ADB409D2B7FF1DA6279E0935 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCD714114B85EBD9EB92D833D853D231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66A502DDDBEB378C6449E024E080BFF /* Pods-QoreIDObjectiveCTestApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70C857B432477EDD4DCB9D2EE5CA4CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0786BF3F332ACCD9566DD1B1F4A8A1AA /* QoreIDSDKDev-xcframeworks.sh */,
+				F3C81B316E1A9296C8C5B15663D03379 /* QoreIDSDKDev.debug.xcconfig */,
+				9276F1F4A57DDFCFB5DDF87D571471C8 /* QoreIDSDKDev.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QoreIDSDKDev";
+			sourceTree = "<group>";
+		};
+		F9FB8865F765D25E91B4683F6E1C5E01 /* QoreIDSDKDev */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3A8E8DDA9DF7F4D1F14473CF38562 /* Frameworks */,
+				E70C857B432477EDD4DCB9D2EE5CA4CD /* Support Files */,
+			);
+			name = QoreIDSDKDev;
+			path = QoreIDSDKDev;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E2CFA5DCE56A45862A9448DEEAACEBF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0454859B9852126D1AEC1936DC686FFB /* Pods-QoreIDObjectiveCTestApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DFD80B306093284C767CC6972A41CAB5 /* Pods-QoreIDObjectiveCTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F57D7483EA5EAF30DB6D9DEED4B49C /* Build configuration list for PBXNativeTarget "Pods-QoreIDObjectiveCTestApp" */;
+			buildPhases = (
+				E2CFA5DCE56A45862A9448DEEAACEBF9 /* Headers */,
+				ED371CEE68A20DB6DE58C264DA3A1E13 /* Sources */,
+				D351ED257FF90D246F7315B2196B701B /* Frameworks */,
+				8C7835E7EB145F121B7D6DDA102C0613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6574AFA36E96844EC19A650105F1AF6 /* PBXTargetDependency */,
+				63705D3B659862814CD3857602464FD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-QoreIDObjectiveCTestApp";
+			productName = Pods_QoreIDObjectiveCTestApp;
+			productReference = C66A502DDDBEB378C6449E024E080BFF /* Pods-QoreIDObjectiveCTestApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DCD714114B85EBD9EB92D833D853D231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD80B306093284C767CC6972A41CAB5 /* Pods-QoreIDObjectiveCTestApp */,
+				6E99BC01CDF272A219D30E8011560F75 /* QoreIDSDKDependencies */,
+				20C14DB1A15A0DA501D447341B72875E /* QoreIDSDKDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C7835E7EB145F121B7D6DDA102C0613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE0E87CC38C8920CE6A9EE89F12F6D6 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/QoreIDSDKDependencies/QoreIDSDKDependencies-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/QoreIDSDKDependencies/QoreIDSDKDependencies-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/QoreIDSDKDependencies/QoreIDSDKDependencies-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB45FD9E5C6E91A462421E619DE8A56 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/QoreIDSDKDev/QoreIDSDKDev-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/QoreIDSDKDev/QoreIDSDKDev-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/QoreIDSDKDev/QoreIDSDKDev-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED371CEE68A20DB6DE58C264DA3A1E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D58F2DCE8BD46F9B6071C51980818E2 /* Pods-QoreIDObjectiveCTestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FCFE2DDA84886C614AA20CE5355CF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QoreIDSDKDependencies;
+			target = 6E99BC01CDF272A219D30E8011560F75 /* QoreIDSDKDependencies */;
+			targetProxy = F990981AD1CCB7642CB485493DCB829D /* PBXContainerItemProxy */;
+		};
+		63705D3B659862814CD3857602464FD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QoreIDSDKDev;
+			target = 20C14DB1A15A0DA501D447341B72875E /* QoreIDSDKDev */;
+			targetProxy = 1C14FA995FF898B5528CF2BA0B17E376 /* PBXContainerItemProxy */;
+		};
+		A6574AFA36E96844EC19A650105F1AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QoreIDSDKDependencies;
+			target = 6E99BC01CDF272A219D30E8011560F75 /* QoreIDSDKDependencies */;
+			targetProxy = E0D6DA153A6F9713FDC7A49DFC646087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042698DA84A3689F42A170031E19DD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE3EFF4FCC436C3BFB2538FBC089530 /* QoreIDSDKDependencies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F55DBEBA77B9BCDF01159D2CF78D073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C81B316E1A9296C8C5B15663D03379 /* QoreIDSDKDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5234D2D907C423A949A7D1D0773E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A984B3A840E960EC24B8A84D6E9CDB /* Pods-QoreIDObjectiveCTestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59966DB910053EAF15405BE7B01FE0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA922E5FA41759A5FE354C4D726CD8B /* QoreIDSDKDependencies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		96425BE6EBB1362595BDD95637BBC48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949FB46A99160ACDEE8245880EB26F14 /* Pods-QoreIDObjectiveCTestApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QoreIDObjectiveCTestApp/Pods-QoreIDObjectiveCTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFE453BE684B725DB87292F98D4D077C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9276F1F4A57DDFCFB5DDF87D571471C8 /* QoreIDSDKDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4360A68E5D496FDABD983E63E0B1B099 /* Build configuration list for PBXAggregateTarget "QoreIDSDKDependencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59966DB910053EAF15405BE7B01FE0D2 /* Debug */,
+				042698DA84A3689F42A170031E19DD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F57D7483EA5EAF30DB6D9DEED4B49C /* Build configuration list for PBXNativeTarget "Pods-QoreIDObjectiveCTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96425BE6EBB1362595BDD95637BBC48B /* Debug */,
+				4F5234D2D907C423A949A7D1D0773E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FF253BC7396FCB30CF2E28E951309A /* Build configuration list for PBXAggregateTarget "QoreIDSDKDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F55DBEBA77B9BCDF01159D2CF78D073 /* Debug */,
+				EFE453BE684B725DB87292F98D4D077C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
