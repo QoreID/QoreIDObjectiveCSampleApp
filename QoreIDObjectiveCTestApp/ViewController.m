@@ -5,7 +5,7 @@
 //  Created by Guru King on 04/10/2023.
 //
 
-//The view controller is embedded in a navigation view via the Main.storyboard
+//Note: This view controller is embedded in a navigation controller via the Main.storyboard
 #import "ViewController.h"
 #import "QoreIDObjectiveCTestApp-Swift.h"
 

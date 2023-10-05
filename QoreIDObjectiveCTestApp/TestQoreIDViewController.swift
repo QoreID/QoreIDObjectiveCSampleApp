@@ -20,7 +20,7 @@ class TestQoreIDViewController:UIViewController{
 
         let customerref = "ref-hhdaxxc-ssid"
 
-        let productcode = ""
+        let productcode = "bvn_basic"
 
         let param = QoreIDParam()
             .clientId(clientId: clientId)
@@ -52,5 +52,6 @@ class TestQoreIDViewController:UIViewController{
                 }
             }
         }
+        navigationController?.popViewController(animated: false)
     }
 }
