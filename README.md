@@ -1,3 +1,3 @@
 # QoreIDObjectiveCSampleApp
 
-Run Pod Install to test
+clone the sample project and run pod install
